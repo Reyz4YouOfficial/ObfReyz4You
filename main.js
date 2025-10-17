@@ -851,7 +851,7 @@ async function handleRegister(e) {
   document.getElementById("registerModal").classList.remove("show")
   document.body.style.overflow = ""
   resetRegisterForm()
-  showNotification("success", `Welcome to Painzy Obfuscator, ${username}!`)
+  showNotification("success", `Welcome to Reyz4You Obfuscator, ${username}!`)
 }
 
 function handleEditProfile(e) {
@@ -1240,7 +1240,7 @@ function initObfuscatorForm() {
           resultLink.innerHTML = `<i class="fas fa-download"></i> Download ${fileName}.js`
           resultUrlDisplay.textContent = data.result
           encodingType.textContent = encodingMethod
-          creatorInfo.textContent = "t.me/painzyfvck"
+          creatorInfo.textContent = "t.me/Reyz4Youu"
 
           loading.classList.remove("show")
           resultContent.classList.add("show")
